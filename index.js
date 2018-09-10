@@ -10,10 +10,7 @@ function destructivelyRemoveLastKitten() {
   kittens.pop()
 }
 
-function destruvctivelyRemoveFirstKitten() {
+function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
-function appendKitten(name) {
-  kitten = kittens.concat(name)
-}

@@ -29,3 +29,8 @@ function removeLastKitten() {
   var poppedKittensArray = kittens.slice(0,-1)
   return poppedKittensArray
 }
+
+function removeFirstKitten() {
+  var shiftedKittensArray = kittens.slice(1)
+  return shiftedKittensArray
+}
